@@ -63,7 +63,7 @@ functions = {
         'func': lambda x: sin(x) / x if x != 0 else 1,  # sin(x)/x не определен в x=0, поэтому возвращаем предел 1
         'intervals': [(0.0001, 1), (1, 2)]
     },
-    'sin(x) / x' : {
+    'sin(1 / x)' : {
         'func': lambda x: sin(1/x),
         'intervals': [(0.0001, 1), (1, 2)]
     },
